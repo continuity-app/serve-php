@@ -2,5 +2,5 @@ serve-php
 =========
 
 ```bash
-cat Dockerfile | envsubst | sudo docker build -t test1 -
+cat ../stacks/static/Dockerfile | envsubst | sudo docker build -t test -
 ```
